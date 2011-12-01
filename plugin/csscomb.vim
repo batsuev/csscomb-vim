@@ -6,11 +6,11 @@
 
 let g:CSSCombPluginDir = fnamemodify(expand("<sfile>"), ":h")
 
-function! g:CSSComb()
-    let content = join(getline(0, line("$")), "\n")
+function! g:CSSComb(count, line1, line2)
+    let content = join(getline(a:line1, a:line2), "\n")
     let res = system("php ".fnameescape(g:CSSCombPluginDir."/exec.php"), content)
     let lines = split(res, "\n")
-    call setline(1, lines)
+    call setline(a:line1, lines)
 endfunction
 
-command! CSSComb :call g:CSSComb()
+command! -nargs=? -range=% CSSComb :call g:CSSComb(<count>, <line1>, <line2>, <f-args>)
