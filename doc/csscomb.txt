@@ -11,6 +11,7 @@ CONTENTS                                                    *csscomb-contents*
 About                   |csscomb-about|
 Custom sort order       |csscomb-custom-sort-order|
 Install                 |csscomb-install|
+Usage                   |csscomb-usage|
 
 ==============================================================================
 ABOUT                                                          *csscomb-about*
@@ -62,3 +63,8 @@ Manual without plugins manager
     git clone https://github.com/miripiruni/csscomb-for-vim.git
     cp csscomb-vim/plugin/* ~/.vim/plugin/
 
+==============================================================================
+USAGE                                                          *csscomb-usage*
+
+For CSS resort you can use ':CSScomb' command.
+Also you can select a part of CSS file and type ':CSScomb'.
