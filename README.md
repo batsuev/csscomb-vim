@@ -24,5 +24,5 @@ Bundle 'git://github.com/miripiruni/csscomb-for-vim.git'
 
 ### Manual
 ```
-git clone https://github.com/
+git clone https://github.com/miripiruni/csscomb-for-vim.git
 ```
