@@ -22,7 +22,14 @@ Add this to .vimrc:
 Bundle 'git://github.com/miripiruni/csscomb-for-vim.git'
 ```
 
-### Manual
+### Manual without plugins manager
 ```
 git clone https://github.com/miripiruni/csscomb-for-vim.git
+cp csscomb-vim/plugin/* ~/.vim/plugin/
+```
+
+## Usage
+Vim command:
+```
+:CSScomb
 ```
