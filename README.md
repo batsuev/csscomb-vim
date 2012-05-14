@@ -13,18 +13,18 @@ For more info, online demo and tests see [http://csscomb.com/](csscomb.com)
 
 ```
 cd ~/.vim/bundle
-git clone https://github.com/miripiruni/csscomb-for-vim.git
+git clone https://github.com/miripiruni/CSScomb-for-Vim.git
 ```
 
 ### With Vundle
 Add this to .vimrc:
 ```
-Bundle 'git://github.com/miripiruni/csscomb-for-vim.git'
+Bundle 'git://github.com/miripiruni/CSScomb-for-Vim.git'
 ```
 
 ### Manual without plugins manager
 ```
-git clone https://github.com/miripiruni/csscomb-for-vim.git
+git clone https://github.com/miripiruni/CSScomb-for-Vim.git
 cp csscomb-vim/plugin/* ~/.vim/plugin/
 ```
 
