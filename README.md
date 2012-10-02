@@ -11,7 +11,7 @@ For more info, online demo and tests see [csscomb.com](http://csscomb.com/)
 The Requirements
 ------------
 
-* [PHP](http://windows.php.net/download/) ([Make sure](https://github.com/miripiruni/CSScomb/tree/master/src/plugins/csscomb.notepad_plus_plus#required) that the path to the PHP is in an environment variable)
+* [PHP](http://windows.php.net/download/). Make sure that the path to the PHP is in an environment variable ([How to for Windows](https://github.com/miripiruni/CSScomb/tree/master/src/plugins/csscomb.notepad_plus_plus#required))
 
 
 ## Installation
