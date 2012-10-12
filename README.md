@@ -31,8 +31,8 @@ Bundle 'git://github.com/miripiruni/CSScomb-for-Vim.git'
 
 ### Manual without plugins manager
 ```
-git clone https://github.com/miripiruni/CSScomb-for-Vim.git
-cp csscomb-vim/plugin/* ~/.vim/plugin/
+git clone https://github.com/miripiruni/CSScomb-for-Vim.git csscomb
+cp csscomb/plugin/* ~/.vim/plugin/
 ```
 
 ## Usage
