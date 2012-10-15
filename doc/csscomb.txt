@@ -57,11 +57,12 @@ With Pathogen
     git clone https://github.com/miripiruni/csscomb-for-vim.git
 
 With Vundle
-    Add to .vimrc: Bundle 'git://github.com/miripiruni/csscomb-for-vim.git'
+    Add to .vimrc:
+    Bundle 'git://github.com/miripiruni/csscomb-for-vim.git'
 
 Manual without plugins manager
-    git clone https://github.com/miripiruni/csscomb-for-vim.git
-    cp csscomb-vim/plugin/* ~/.vim/plugin/
+    git clone https://github.com/miripiruni/CSScomb-for-Vim.git csscomb
+    cp -r csscomb/plugin/* ~/.vim/plugin/
 
 ==============================================================================
 USAGE                                                          *csscomb-usage*
