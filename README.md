@@ -10,9 +10,7 @@ For more info, online demo and tests see [csscomb.com](http://csscomb.com/)
 
 ## The Requirements
 
-CSScomb is written in pure PHP, without any external libraries or dependencies.
-See details at [wiki](https://github.com/miripiruni/CSScomb/wiki/Requirements).
-
+https://github.com/csscomb/csscomb.js
 
 ## Installation
 
@@ -20,18 +18,18 @@ See details at [wiki](https://github.com/miripiruni/CSScomb/wiki/Requirements).
 
 ```
 cd ~/.vim/bundle
-git clone https://github.com/miripiruni/CSScomb-for-Vim.git
+git clone git://github.com/batsuev/csscomb-vim.git
 ```
 
 ### With Vundle
 Add this to .vimrc:
 ```
-Bundle 'git://github.com/miripiruni/CSScomb-for-Vim.git'
+Bundle 'git://github.com/batsuev/csscomb-vim.git'
 ```
 
 ### Manual without plugins manager
 ```
-git clone https://github.com/miripiruni/CSScomb-for-Vim.git csscomb
+git clone https://github.com/batsuev/csscomb-vim.git csscomb
 cp -r csscomb/plugin/* ~/.vim/plugin/
 ```
 
